@@ -8,4 +8,6 @@ function multiplyByPI(number) {
 
 multiplyByPI(num);
 
+document.getElementById('myDiv1').innerHTML = multiplyByPI(num);
+
 console.log(multiplyByPI(num));
